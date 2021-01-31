@@ -1,0 +1,138 @@
+body{
+  overflow-x: hidden;
+}
+.navbar li {
+    margin-left : 2.0rem;
+    margin-right : 2.0rem;
+}
+nav ul li a:hover{
+border-bottom:3px solid #FF4755;
+}
+.nav-link{
+font-size: 1.0rem;
+}
+
+.header
+{
+width: 100%;
+height: 100vh;
+background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../images/pexels-photo.jpg);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+position:relative;
+}
+.header-section
+{
+width: 100%;
+height: inherit;
+color:#fff;
+text-align: center;
+position: relative;
+}
+.center-div
+{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+  
+}
+.main-area{
+    background:	#181e22;
+
+}
+.card {
+    min-width: 0;
+    margin: 20px 10px;
+    width: 100%;    
+    background: #0C0C0C;
+    color: #696969;
+    -webkit-transition: .3s ease all;
+    transition: .3s ease all;
+    border: none;
+    border-radius: 5px;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.card .card-img-container .card-img {
+  background-size: cover;
+  background-position: top center;
+  display: block;
+  height: 175px;
+}
+
+.card .card-img {
+  height: 150px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.card .card-img-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.card .card-content {
+  padding: 20px 20px 40px;
+  text-align: center;
+}
+
+.card .card-meta {
+  font-size: 12px;
+}
+
+.card .meta-box {
+  margin-right: 20px;
+}
+
+.card .card-content h2 {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.card h2 a {
+  color: #D0D0D0;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+}
+
+a:hover{
+    text-decoration:none;    
+}
+
+.card:hover h2 a {
+  color: #FFF;
+}
+
+.card .meta-tags a:hover {
+  color: #FFF;
+}
+.card .meta-tags .categories {
+  background: #DD1B16;
+  color: #f9c7c6;
+}
+.card .meta-tags a:last-child {
+  margin-right: 0;
+  border-bottom-right-radius: 5px;
+}
+.card .meta-tags a:first-child {
+  border-top-left-radius: 5px;
+}
+.card .meta-tags a {
+  display: inline-block;
+  padding: 3px 8px;
+  color: #FFF;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+}
+.hr1{
+    border: 1px solid white;
+}
